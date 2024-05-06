@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+::selection {
+  background: #fdd835;
+  color: white;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.swiper-button-next {
+  background-color: white;
+  color: gray;
+  padding: 40px 20px;
+  margin-right: -10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.swiper-button-prev {
+  background-color: white;
+  color: gray;
+  padding: 40px 20px;
+  margin-left: -10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
